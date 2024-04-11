@@ -9,7 +9,7 @@ int main()
     int n;
     cin >> n;
     
-    stack<int> stk;
+    stack<int> stk; // int type의 stack 선언
     string str;
     
     if(n<1 || n>10000)
@@ -69,3 +69,6 @@ int main()
 
     return 0;
 }
+// 각각 5개의 함수를 만들어서 메인함수에서 동작하게끔 구현해봤는데 오류가 났다. 
+// 함수를 만들지 않고 간단하게 구현하는 방법을 알게되었다. 
+
